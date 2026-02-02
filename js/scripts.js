@@ -153,3 +153,9 @@ let pokemonList = [
     { name: 'Mewtwo', number: '150', height: '2', type: ['Psychic'] },
     { name: 'Mew', number: '151', height: '0.4', type: ['Psychic'] },
 ]
+
+for (let i = 0; i < pokemonList.length; i++) {
+    let pokemon = pokemonList[i];
+    if (pokemon.height >= 2) { document.write(pokemon.name + " Height: " + pokemon.height + " - Wow, that´s big!<br>"); }
+    else { document.write(pokemon.name + " Height: " + pokemon.height + "<br>"); }
+}
