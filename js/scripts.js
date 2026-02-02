@@ -152,7 +152,9 @@ let pokemonList = [
     { name: 'Dragonite', number: '149', height: '2.2', type: ['Dragon', 'Flying'] },
     { name: 'Mewtwo', number: '150', height: '2', type: ['Psychic'] },
     { name: 'Mew', number: '151', height: '0.4', type: ['Psychic'] },
-]
+];
+
+let legendaryPokemon = ['144', '145', '146', '150', '151']
 
 for (let i = 0; i < pokemonList.length; i++) {
     let pokemon = pokemonList[i];
